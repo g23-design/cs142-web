@@ -1,0 +1,25 @@
+/* TopBar стилийн тохиргоо */
+.MuiAppBar-root {
+  background-color: #1976d2; /* AppBar өнгийг өөрчлөх */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Зөөлөн сүүдэр нэмэх */
+}
+
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between; /* Зүүн, баруун хэсгийг зайлуулах */
+  align-items: center; /* Элементийг босоогоор нь тэнцүүлэх */
+  padding: 0 16px; /* Дотор зай нэмэх */
+}
+
+.MuiTypography-h6 {
+  color: #ffffff; /* Цагаан өнгийн текст */
+  font-weight: bold; /* Текстийн жинг нэмэх */
+}
+
+.MuiTypography-h6:first-child {
+  font-family: 'Arial', sans-serif; /* Зүүн талын текстийн фонт */
+}
+
+.MuiTypography-h6:last-child {
+  font-style: italic; /* Баруун талын текстийг налуулсан болгох */
+}
